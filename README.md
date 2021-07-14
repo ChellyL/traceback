@@ -4,7 +4,7 @@
 ```
 apt update %% apt install  traceroute
 ```
-安装完毕后使用```traceroute -q 1 ```+IP地址即可插叙
+安装完毕后使用```traceroute -q 1 ```+IP地址即可查询，但只显示ip不显示服务商
 
 使用ipip官方的BestTrace查询：
 ```
