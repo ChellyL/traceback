@@ -13,6 +13,7 @@ unzip besttrace4linux.zip && chmod +x *
 ./besttrace -q 1 + IP地址
 ```
 但由于ipip用的这个地址境外下载太拉跨，我把压缩包解压传到这里，版本为1.3.2 (03/25/2021)
+
 下载地址中的"/main/besttrace"根据自己机器类型来下载：
 ```
 wget https://raw.githubusercontent.com/ChellyL/traceback/main/besttrace
