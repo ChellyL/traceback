@@ -10,7 +10,7 @@ apt update %% apt install  traceroute
 ```
 wget -N --no-check-certificate https://cdn.ipip.net/17mon/besttrace4linux.zip
 unzip besttrace4linux.zip && chmod +x *
-./besttrace -q 1 + IP地址
+./besttrace -q 1 #IP地址
 ```
 但由于ipip用的这个地址境外下载太拉跨，我把压缩包解压传到这里，版本为1.3.2 (03/25/2021)
 
@@ -18,5 +18,5 @@ unzip besttrace4linux.zip && chmod +x *
 ```
 wget https://raw.githubusercontent.com/ChellyL/traceback/main/besttrace
 chmod +x besttrace
-./besttrace -q 1 + IP地址
+./besttrace -q 1 #IP地址
 ```
