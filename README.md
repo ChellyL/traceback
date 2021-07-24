@@ -2,7 +2,7 @@
 
 查询回程路由：
 ```
-apt update %% apt install  traceroute
+apt upgrade && apt install  traceroute
 ```
 安装完毕后使用```traceroute -q 1 ```+IP地址即可查询，但只显示ip不显示服务商
 
