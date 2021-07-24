@@ -1,12 +1,12 @@
 # traceback
 
-查询回程路由：
+### 查询回程路由：
 ```
 apt upgrade && apt install  traceroute
 ```
 安装完毕后使用```traceroute -q 1 ```+IP地址即可查询，但只显示ip不显示服务商
 
-使用ipip官方的BestTrace查询：
+### 使用ipip官方的BestTrace查询：
 ```
 wget -N --no-check-certificate https://cdn.ipip.net/17mon/besttrace4linux.zip
 unzip besttrace4linux.zip && chmod +x *
@@ -18,5 +18,9 @@ unzip besttrace4linux.zip && chmod +x *
 ```
 wget https://raw.githubusercontent.com/ChellyL/traceback/main/besttrace
 chmod +x besttrace
+```
+之后再运行命令
+```
 ./besttrace -q 1 #+查询的IP地址
 ```
+要知道自己家的ip可以打开 CMD，输入```curl ip.sb```
